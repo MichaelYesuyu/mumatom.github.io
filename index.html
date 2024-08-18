@@ -191,7 +191,76 @@
     </div>
   </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- First Row of Videos (2 Videos Side by Side) -->
+    <div class="columns is-centered">
+      
+      <!-- Video 1 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5" style="text-align: center;">Belief Inference</h2>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <video id="belief_example" autoplay controls loop playsinline style="width: 100%;">
+              <source src="./static/media/Belief_Inference_Example.mp4" type="video/mp4">
+            </video>
+            <div style="border: 1px solid black; padding: 15px; max-width: 600px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <p style="font-size: 0.8em;"><strong>Question:</strong> If Mary has been trying to hinder John from achieving his goal, when giving information, where does she <strong>LEAST</strong> likely believe the beer was located?</p>
+              <p style="font-size: 0.8em;"><strong style="color: green;">A) Coffee table in the living room <span style="color: green;">✔</span></strong></p>
+              <p style="font-size: 0.8em;">B) Kitchen cabinet</p>
+              <p style="font-size: 0.8em;">C) Fridge</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Video 2 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5" style="text-align: center;">Social Goal Inference</h2>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <video id="social_goal_example" controls playsinline style="width: 100%;">
+              <source src="./static/media/Social_Goal_Inference_Example.mp4" type="video/mp4">
+            </video>
+            <div style="border: 1px solid black; padding: 15px; max-width: 600px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <p style="font-size: 0.8em;"><strong>Question:</strong> If Jessica knows what is inside the cabinet in the bedroom, which of the following is <strong>MOST</strong> likely?</p>
+              <p style="font-size: 0.8em;"><strong style="color: green;">A) Jessica is trying to help Kevin <span style="color: green;">✔</span></strong></p>
+              <p style="font-size: 0.8em;">B) Jessica is trying to hinder Kevin</p>
+              <p style="font-size: 0.8em;">C) Jessica is indifferent towards Kevin’s goals</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </div>
+
+    <!-- Second Row of Videos (1 Video) -->
+    <div class="columns is-centered">
+      <!-- Video 3 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5" style="text-align: center;">Belief of Goal Inference</h2>
+          <div style="max-width: 600px; margin-top: 20px;">
+            <p><strong>The events in the text occur first, followed by the video.</strong></p>
+            <p><strong>Text:</strong> David walked to a book and grabbed it. He then walked to the living room, headed to the bedroom, and finally reached the desk there, placing the book on the desk.</p>
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <video id="goal_inference_example" controls playsinline style="width: 100%;">
+              <source src="./static/media/Belief_of_Goal_Inference_Example.mp4" type="video/mp4">
+            </video>
+            <div style="border: 1px solid black; padding: 15px; max-width: 800px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <p style="font-size: 0.8em;"><strong>Question:</strong> Which of the following statements is <strong>MOST</strong> likely?</p>
+              <p style="font-size: 0.8em;">A) Sarah believed that David placed the book at his desired location: she moved the book to the coffee table to help David.</p>
+              <p style="font-size: 0.8em;">B) Sarah believed that David wanted to place the book on the coffee table: she intentionally moved the book to hinder David.</p>
+              <p style="font-size: 0.8em;"><strong style="color: green;">C) Sarah believed that David wanted to place the book on the coffee table: she moved the book to help David. <span style="color: green;">✔</span></strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <section class="section">
       <div class="container is-max-desktop">
